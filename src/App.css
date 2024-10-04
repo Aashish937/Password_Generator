@@ -1,0 +1,49 @@
+
+*{
+    display: flex;
+    justify-content: center;
+}
+.root{
+    background-color: rgb(71, 69, 69);
+    width: 50%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+h1{
+    color:white;
+    margin-bottom: 30px;
+}
+.child{
+    border: 4px;
+    width:80%;
+    height:15%;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.input{
+    width:100vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: large;
+    color: rgb(207, 146, 32);
+}
+.copy{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(63, 133, 245);
+    align-items: center;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.effect{
+    margin-left: 10px;
+}
+.change{
+    cursor: pointer;
+}
